@@ -6,7 +6,7 @@ https://api.slack.com/apps/{APP_ID}/general?
 
 SLACK_BOT_TOKEN
 
-https://api.slack.com/apps/A052ZKUKK6H/install-on-team?
+https://api.slack.com/apps/{APP_ID}/install-on-team?
 
 run local server
 
