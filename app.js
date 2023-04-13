@@ -117,7 +117,7 @@ app.view("create_task_modal", async ({ ack, body, view, client }) => {
   }
 });
 
-app.command("/list_tasks", async ({ command, ack, say }) => {
+app.command("/list", async ({ command, ack, say }) => {
   // コマンドの受信確認
   await ack();
   await say("タスク一覧を表示します。");
