@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "ngrok": "ngrok http 3000",
-    "serveo": "ssh -R 80:localhost:3000 serveo.net",
+    "serveo": "ssh -R toties.serveo.net:80:localhost:3000 serveo.net",
     "dev": "npx nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
